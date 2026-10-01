@@ -1,0 +1,16 @@
+{
+  "evaluated_at_utc": "2026-10-01T04:34:59.404521+00:00",
+  "evaluation": "single reserved stratified random holdout from the same deduplicated dataset",
+  "n_holdout": 7821,
+  "macro_f1_primary": 0.9553443525703909,
+  "accuracy": 0.9556322720879683,
+  "macro_precision": 0.9550848193465336,
+  "macro_recall": 0.9556306538590571,
+  "labels": [
+    "fake",
+    "real"
+  ],
+  "model_artifact": "models\\final_naive_bayes_pipeline.joblib",
+  "python_version": "3.13.3",
+  "scikit_learn_version": "1.9.1"
+}
