@@ -1,0 +1,18 @@
+{
+  "evaluated_at_utc": "2026-10-02T01:29:22.000835+00:00",
+  "evaluation_set": "CrossFake English COVID-19 articles; external to project training corpus by exact normalized title/body check",
+  "n_articles": 95,
+  "label_counts": {
+    "real": 75,
+    "fake": 20
+  },
+  "macro_f1_primary": 0.7769953051643192,
+  "accuracy": 0.8315789473684211,
+  "balanced_accuracy": 0.8200000000000001,
+  "macro_precision": 0.755863539445629,
+  "macro_recall": 0.8200000000000001,
+  "model_artifact": "models\\final_naive_bayes_pipeline.joblib",
+  "dataset_path": "data\\external\\Test_News\\external_test_news.csv",
+  "python_version": "3.13.3",
+  "scikit_learn_version": "1.9.1"
+}

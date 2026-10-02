@@ -1,0 +1,96 @@
+article_id,title,actual_label,predicted_label,correct
+real_56,Facebook temporarily bans ads for medical face masks to prevent coronavirus exploitation,real,fake,False
+real_3,"WHO, UN Foundation and partners launch first-of-its-kind COVID-19 Solidarity Response Fund",real,real,True
+real_60,WHO and European Investment Bank strengthen efforts to combat COVID-19 and build resilient health systems to face future pandemics,real,real,True
+real_61,"Global leaders unite to ensure everyone everywhere can access new vaccines, tests and treatments for COVID-19",real,real,True
+fake_8,"Covid-19 had us all fooled, but now we might have finally found its secret.",fake,fake,True
+real_14,"Global partnership to make available 120 million affordable, quality COVID-19 rapid tests for low- and middle-income countries",real,real,True
+real_28,New coronavirus stable for hours on surfaces,real,real,True
+real_30,COVID-19 a Reminder of the Challenge of Emerging Infectious Diseases,real,real,True
+fake_35,Vatican confirms Pope Francis and two aides test positive for Coronavirus,fake,real,False
+real_33,Experts identify steps to expand and improve antibody tests in COVID-19 response,real,real,True
+real_72,#BeActive for the UN International Day of Sport for Development and Peace,real,real,True
+real_43,"NIH harnesses AI for COVID-19 diagnosis, treatment, and monitoring",real,fake,False
+real_69,"WHO Director-General calls on G20 to Fight, Unite, and Ignite against COVID-19",real,real,True
+real_35,Microglia in the olfactory bulb have a nose for protecting the brain from infection,real,fake,False
+fake_37,Poll Finds 38 Percent of Americans Say They Will Not Drink Corona Beer Because of Virus,fake,fake,True
+fake_17,"“Boil weed and ginger for Covid-19 victims, the virus will vanish” – Rastafarian Prez to Nana Akufo-Addo",fake,fake,True
+fake_46,Italian Parliament Calls For The Arrest of Bill Gates,fake,fake,True
+real_16,Solidarity Therapeutics Trial produces conclusive evidence on the effectiveness of repurposed drugs for COVID-19 in record time,real,real,True
+real_27,"NIH clinical trial of hydroxychloroquine, a potential therapy for COVID-19, begins",real,real,True
+real_54,Trump Appoints Pence To Lead Government's Coronavirus Response,real,real,True
+fake_41,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",fake,fake,True
+real_66,Medical Product Alert N°3/2020,real,real,True
+real_67,WHO statement on cases of COVID-19 surpassing 100 000,real,real,True
+real_18,"In WHO global pulse survey, 90% of countries report disruptions to essential health services since COVID-19 pandemic",real,real,True
+real_21,More than 150 countries engaged in COVID-19 vaccine global access facility,real,real,True
+fake_36,CDC recommends men shave their beards to protect against coronavirus,fake,fake,True
+real_32,Remdesivir prevents MERS coronavirus disease in monkeys,real,real,True
+real_37,NIH clinical trial testing antiviral remdesivir plus anti-inflammatory drug baricitinib for COVID-19 begins,real,real,True
+real_19,172 countries and multiple candidate vaccines engaged in COVID-19 vaccine Global Access Facility,real,real,True
+real_55,False claim: Marijuana kills coronavirus,real,fake,False
+fake_34,Doctor warned US hospitals should prepare for as many as 96 MILLION coronavirus infections and nearly HALF A MILLION deaths,fake,real,False
+real_79,"WHO and UNHCR join forces to improve health services for refugees, displaced and stateless people",real,real,True
+fake_18,Cuomo considers banning cigarette sales for six weeks amid Coronavirus outbreak,fake,fake,True
+real_78,"At least 80 million children under one at risk of diseases such as diphtheria, measles and polio as COVID-19 disrupts routine vaccination efforts, warn Gavi, WHO and UNICEF",real,real,True
+real_58,Coronavirus: N.Y. governor’s crowd ban forces Broadway theaters to close,real,fake,False
+real_23,WHO: access to HIV medicines severely impacted by COVID-19 as AIDS response stalls,real,real,True
+fake_42,A ‘High-Level Exercise’ Conducted 3 Months Ago Showed That A Coronavirus Pandemic Could Kill 65 Million People,fake,fake,True
+real_64,A Joint Statement on Tourism and COVID-19 - UNWTO and WHO Call for Responsibility and Coordination,real,real,True
+real_22,WHO and UNICEF warn of a decline in vaccinations during COVID-19,real,real,True
+fake_29,Gold Coast Hospital Staff Roll In A Wilson Volleyball To Keep Tom Hanks Company In Quarantine,fake,fake,True
+real_41,Clinical trials of monoclonal antibodies to prevent COVID-19 now enrolling,real,real,True
+real_15,"Conflict, climate crisis and COVID-19 pose great threats to the health of women and children",real,real,True
+fake_47,"Mouthwash could protect against COVID-19 by destroying the outer layer of fat the virus uses to bind to human cells, scientists suggest",fake,fake,True
+real_65,ICC-WHO Joint Statement: An unprecedented private sector call to action to tackle COVID-19,real,real,True
+real_11,IU Researchers Identify Fabric That Kills Coronaviruses,real,real,True
+real_57,Greta Thunberg urges climate protests to move online because of coronavirus outbreaks,real,fake,False
+fake_38,WE ARE ALL CONNECTED' Bill Gates says coronavirus reminds us we are all equal in powerful open letter,fake,fake,True
+real_6,BREAKING NEWS: Whole of ITALY goes into Quarantine,real,real,True
+fake_15,"Elisa Granato, the first volunteer in the first Europe human trial of a COVID-19 vaccine, has died.",fake,real,False
+fake_45,Discovery: Autopsies Prove that COVID-19 is a Disseminated Intravascular Coagulation (Pulmonary Thrombosis),fake,fake,True
+real_26,NIH begins study to quantify undetected cases of coronavirus infection,real,real,True
+fake_30,Fans Think 'The Simpsons' Predicted Tom Hanks Would Go Into Self-Isolation In 2007,fake,fake,True
+real_73,ACT-Accelerator update,real,real,True
+fake_27,Ronaldo Turning His CR7 Hotels Into ‘Hospitals’ To Help Stop Coronavirus,fake,real,False
+real_50,NIH ACTIV initiative launches adaptive clinical trials of blood-clotting treatments for COVID-19,real,fake,False
+real_24,WHO discontinues hydroxychloroquine and lopinavir/ritonavir treatment arms for COVID-19,real,real,True
+real_71,World experts and funders set priorities for COVID-19 research,real,real,True
+real_44,Phase 3 clinical trial of investigational vaccine for COVID-19 begins.,real,real,True
+real_82,"Commemorating Smallpox Eradication – a legacy of hope, for COVID-19 and other diseases",real,real,True
+real_42,NIH clinical trial testing remdesivir plus interferon beta-1a for COVID-19 treatment begins,real,fake,False
+real_31,NIH clinical trial of remdesivir to treat COVID-19 begins,real,real,True
+real_38,Study to determine incidence of novel coronavirus infection in U.S. children begins,real,real,True
+real_52,Coronavirus Whistleblower Dies From The Disease In China,real,real,True
+real_34,NIH halts clinical trial of hydroxychloroquine,real,real,True
+real_53,American With Coronavirus Dies At Hospital Near Center Of Epidemic,real,real,True
+real_49,Investigational COVID-19 vaccine well-tolerated and generates immune response in older adults,real,real,True
+real_81,WHO: People living longer and healthier lives but COVID-19 threatens to throw progress off track,real,real,True
+real_63,First UN solidarity flight departs Addis Ababa carrying vital COVID-19 medical supplies to all African nations,real,real,True
+real_29,NIH clinical trial of investigational vaccine for COVID-19 begins,real,real,True
+real_46,NIH launches clinical trials network to test COVID-19 vaccines and other prevention tools,real,real,True
+real_36,Study identifies potential approach to treat severe respiratory distress in patients with COVID-19,real,real,True
+real_76,COVID-19 significantly impacts health services for noncommunicable diseases,real,real,True
+real_45,Placenta lacks major molecules used by SARS-CoV-2 virus to cause infection,real,real,True
+real_20,"2 in 5 schools around the world lacked basic handwashing facilities prior to COVID-19 pandemic — UNICEF, WHO",real,real,True
+real_77,International community rallies to support open research and science to fight COVID-19,real,real,True
+real_47,NIH scientists discover key pathway in lysosomes that coronaviruses use to exit cells,real,fake,False
+real_51,China reports 25 coronavirus deaths; US prepares evacuation,real,real,True
+real_68,Pass the message: Five steps to kicking out coronavirus,real,real,True
+real_25,NIH study validates decontamination methods for re-use of N95 respirators,real,fake,False
+real_17,"COVID-19 could reverse decades of progress toward eliminating preventable child deaths, agencies warn",real,real,True
+fake_13,The Obama administration left Trump with a “stockpile with a cupboard that was bare.”,fake,fake,True
+real_40,NIH establishes Centers for Research in Emerging Infectious Diseases,real,real,True
+real_2,NIH to launch public-private partnership to speed COVID-19 vaccine and treatment options,real,real,True
+fake_14,59 people die as pastor gives them Dettol to drink in church to prevent coronavirus,fake,fake,True
+real_4,Children’s story book released to help children and young people cope with COVID-19,real,fake,False
+real_75,WHO welcomes preliminary results about dexamethasone use in treating critically ill COVID-19 patients,real,real,True
+real_62,WHO Timeline - COVID-19,real,real,True
+real_74,IOC joins forces with WHO and the United Nations to fight COVID-19,real,real,True
+real_70,Shortage of personal protective equipment endangering health workers worldwide,real,real,True
+real_1,NIH clinical trial shows Remdesivir accelerates recovery from advanced COVID-19,real,real,True
+real_48,NIH RADx initiative advances six new COVID-19 testing technologies,real,real,True
+real_59,Instagram cracks down on coronavirus AR effects,real,fake,False
+fake_40,BREAKING NEWS! Latest Research Published by Chinese Scientists Say Coronavirus Might Render Certain Male Patients Infertile,fake,fake,True
+real_80,Historic health assembly ends with global commitment to COVID-19 response,real,real,True
+real_39,Phase 3 Clinical Testing in the US of AstraZeneca COVID-19 Vaccine Candidate Begins,real,real,True
