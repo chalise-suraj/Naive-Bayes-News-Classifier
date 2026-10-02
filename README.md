@@ -31,6 +31,7 @@
 - [Interpretation and limitations](#interpretation-and-limitations)
 - [Reproducibility notes](#reproducibility-notes)
 - [Attribution](#attribution)
+- [License](#license)
 
 </details>
 
@@ -144,6 +145,7 @@ The external aggregate score and confusion counts are a saved batch-evaluation s
 ```text
 .
 ├── .gitignore
+├── LICENSE
 ├── assets/
 │   ├── readme-hero.svg
 │   └── workflow.svg
@@ -194,4 +196,6 @@ The primary CSVs match the [ISOT Fake News Dataset](https://onlineacademiccommun
 
 The primary dataset should be cited as Ahmed, Traore, and Saad, “Detecting opinion spams and fake news using text classification” (2018); the upstream dataset README also cites their 2017 N-Gram analysis paper. The external sample comes from [CrossFake](https://github.com/YingtongDou/CrossFake), described in Du et al., “Cross-lingual COVID-19 Fake News Detection” (ICDMW 2021). Its Apache-2.0 license and sample-specific notes are included in [`data/external/Test_News/`](data/external/Test_News/).
 
-There is no root `LICENSE` file yet, so this repository does not state a license for its own code. Choose and add one before public release if you want others to have explicit reuse permissions.
+## License
+
+The root [`LICENSE`](LICENSE) applies the MIT License to this project's original code and documentation. It does not relicense third-party material or generated artifacts: the raw datasets under `data/`, evaluation records under `outputs/`, and fitted pipeline under `models/` remain subject to their respective provenance and rights. The external dataset has its own included Apache-2.0 license. The saved notebook outputs may contain article titles; treat those as dataset-derived content too.
