@@ -53,16 +53,16 @@ The workflow separates model selection from final evaluation:
 
 ## Quick start
 
-### 1. Place the original data
+### 1. Verify the original data
 
-Keep the two source files here:
+The two source files are included in this checkout at:
 
 ```text
 data/raw/News/Fake.csv
 data/raw/News/True.csv
 ```
 
-They must contain at least `title` and `text` columns. The audit and visualization notebooks also inspect `subject` and `date` when present. Labels are assigned from the source file: `Fake.csv` → `fake`, `True.csv` → `real`.
+They contain the article fields used by this project. The audit and visualization notebooks also inspect `subject` and `date`. Labels are assigned from the source file: `Fake.csv` → `fake`, `True.csv` → `real`. If the raw files are removed from a future distribution, place the same source files at these paths before running the notebooks.
 
 ### 2. Create an environment and install dependencies
 
@@ -143,10 +143,14 @@ The external aggregate score and confusion counts are a saved batch-evaluation s
 
 ```text
 .
+├── .gitignore
+├── assets/
+│   ├── readme-hero.svg
+│   └── workflow.svg
 ├── configs/
 │   └── config.yaml
 ├── data/
-│   ├── raw/News/                  # Fake.csv and True.csv
+│   ├── raw/News/                  # ISOT files + provenance/citation notes
 │   └── external/Test_News/        # Cached CrossFake test sample + attribution
 ├── models/
 │   └── final_naive_bayes_pipeline.joblib
@@ -156,7 +160,7 @@ The external aggregate score and confusion counts are a saved batch-evaluation s
 │   ├── 03_model_building.ipynb
 │   ├── 04_holdout_evaluation.ipynb
 │   └── Model_Test.ipynb
-├── outputs/
+├── outputs/                      # Saved CV, holdout, and external-test records
 │   ├── experiment_log.csv
 │   ├── holdout_article_ids.csv
 │   ├── holdout_metrics.json
@@ -186,5 +190,8 @@ A stronger real-world assessment would require a larger, recent, time-separated 
 
 ## Attribution
 
-The external sample comes from [CrossFake](https://github.com/YingtongDou/CrossFake), described in Du et al., “Cross-lingual COVID-19 Fake News Detection” (ICDMW 2021). Its Apache-2.0 license and sample-specific notes are included in [`data/external/Test_News/`](data/external/Test_News/).
+The primary CSVs match the [ISOT Fake News Dataset](https://onlineacademiccommunity.uvic.ca/isot/wp-content/uploads/sites/7295/2023/02/ISOT_Fake_News_Dataset_ReadMe.pdf), published by the University of Victoria's ISOT Research Lab. The dataset notes identify Reuters as the source for real articles and describe the sources used for fake articles. A commonly used [Kaggle mirror](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) lists **CC BY-NC-SA 4.0**, but this project did not record the exact download source for its copies. Confirm the applicable terms and attribution before redistributing the CSVs; the mirror's dataset license should not be assumed to settle rights in the included third-party article text. Both files are large (about 60 MiB and 51 MiB), so decide whether to keep them in Git or distribute them separately before the first public push. See [`data/raw/News/README.md`](data/raw/News/README.md).
 
+The primary dataset should be cited as Ahmed, Traore, and Saad, “Detecting opinion spams and fake news using text classification” (2018); the upstream dataset README also cites their 2017 N-Gram analysis paper. The external sample comes from [CrossFake](https://github.com/YingtongDou/CrossFake), described in Du et al., “Cross-lingual COVID-19 Fake News Detection” (ICDMW 2021). Its Apache-2.0 license and sample-specific notes are included in [`data/external/Test_News/`](data/external/Test_News/).
+
+There is no root `LICENSE` file yet, so this repository does not state a license for its own code. Choose and add one before public release if you want others to have explicit reuse permissions.
