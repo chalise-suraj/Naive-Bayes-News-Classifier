@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440" role="img" aria-labelledby="title desc">
+  <title id="title">News Signal — Naive Bayes text classification</title>
+  <desc id="desc">A professional dark blue and teal banner showing a newspaper flowing through text features into a Naive Bayes classification pipeline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#102A43"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#48D6C2"/><stop offset="1" stop-color="#6AA9FF"/></linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1600" height="440" rx="30" fill="url(#bg)"/>
+  <circle cx="1320" cy="110" r="145" fill="#2DD4BF" opacity=".11" filter="url(#glow)"/>
+  <circle cx="1450" cy="350" r="180" fill="#5797FF" opacity=".12" filter="url(#glow)"/>
+  <path d="M0 365C270 280 410 470 700 360s480-95 900-195v275H0z" fill="#0D2036" opacity=".75"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <rect x="86" y="70" width="224" height="34" rx="17" fill="#173B4B" stroke="#2A6873"/>
+    <circle cx="106" cy="87" r="5" fill="#56E0C8"/>
+    <text x="121" y="93" fill="#9DE9DC" font-size="14" font-weight="700" letter-spacing="1.5">APPLIED MACHINE LEARNING</text>
+    <text x="82" y="178" fill="#F4F8FC" font-size="56" font-weight="700">News Signal</text>
+    <text x="86" y="222" fill="#C1D2E3" font-size="24">A reproducible Naive Bayes news-text classifier</text>
+    <text x="86" y="270" fill="#8EA6BC" font-size="17">Data audit  ·  Feature experiments  ·  Holdout evaluation  ·  External sample</text>
+    <rect x="86" y="316" width="188" height="42" rx="21" fill="#123A42" stroke="#257C7C"/>
+    <text x="180" y="343" text-anchor="middle" fill="#8DE8D9" font-size="15" font-weight="700">NAIVE BAYES ONLY</text>
+    <rect x="288" y="316" width="190" height="42" rx="21" fill="#142D49" stroke="#315E8A"/>
+    <text x="383" y="343" text-anchor="middle" fill="#A9CAFF" font-size="15" font-weight="700">NOTEBOOK FIRST</text>
+  </g>
+  <g transform="translate(840 82)" font-family="Segoe UI,Arial,sans-serif">
+    <rect x="0" y="0" width="265" height="266" rx="20" fill="#10253A" stroke="#34516D" stroke-width="2"/>
+    <rect x="24" y="24" width="217" height="218" rx="10" fill="#F1F6F8"/>
+    <rect x="43" y="42" width="66" height="7" rx="3.5" fill="#10354A"/>
+    <rect x="43" y="60" width="178" height="3" rx="1.5" fill="#C1CED6"/>
+    <rect x="43" y="72" width="154" height="3" rx="1.5" fill="#C1CED6"/>
+    <rect x="43" y="96" width="73" height="88" rx="5" fill="#B8D8D7"/>
+    <path d="M43 169l20-26 16 14 16-23 21 31v19H43z" fill="#548C8A"/>
+    <rect x="128" y="100" width="91" height="5" rx="2.5" fill="#325064"/>
+    <rect x="128" y="114" width="78" height="3" rx="1.5" fill="#B8C5CC"/>
+    <rect x="128" y="125" width="86" height="3" rx="1.5" fill="#B8C5CC"/>
+    <rect x="128" y="136" width="68" height="3" rx="1.5" fill="#B8C5CC"/>
+    <rect x="128" y="159" width="91" height="5" rx="2.5" fill="#325064"/>
+    <rect x="128" y="173" width="82" height="3" rx="1.5" fill="#B8C5CC"/>
+    <rect x="128" y="184" width="76" height="3" rx="1.5" fill="#B8C5CC"/>
+    <text x="132" y="221" text-anchor="middle" fill="#254359" font-size="12" font-weight="700" letter-spacing="2">NEWS TEXT</text>
+  </g>
+  <path d="M1122 214h64" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <path d="m1177 204 12 10-12 10" fill="none" stroke="#65DCCB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(1208 124)" font-family="Segoe UI,Arial,sans-serif">
+    <rect width="290" height="180" rx="20" fill="#10253A" stroke="#34516D" stroke-width="2"/>
+    <text x="26" y="39" fill="#9DB4C8" font-size="13" font-weight="700" letter-spacing="1.7">TEXT CLASSIFICATION</text>
+    <rect x="26" y="59" width="238" height="42" rx="10" fill="#153B45" stroke="#28756F"/>
+    <circle cx="48" cy="80" r="7" fill="#55DDC5"/>
+    <text x="66" y="86" fill="#C0F4E9" font-size="16" font-weight="600">Learn word evidence</text>
+    <rect x="26" y="115" width="238" height="42" rx="10" fill="#172F4A" stroke="#31567D"/>
+    <circle cx="48" cy="136" r="7" fill="#77ABFF"/>
+    <text x="66" y="142" fill="#D0E1FF" font-size="16" font-weight="600">Predict dataset label</text>
+  </g>
+  <text x="1495" y="405" text-anchor="end" fill="#718AA1" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="1.4">EDUCATIONAL CLASSIFIER · NOT A FACT-CHECKER</text>
+</svg>

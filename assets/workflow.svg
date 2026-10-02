@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="300" viewBox="0 0 1500 300" role="img" aria-labelledby="title desc">
+  <title id="title">News Signal end-to-end workflow</title>
+  <desc id="desc">Five stages: audit data, explore patterns, compare Naive Bayes pipelines, evaluate a reserved holdout, and inspect one external article at a time.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#09182A"/><stop offset="1" stop-color="#102B43"/></linearGradient><linearGradient id="line"><stop stop-color="#42CBB9"/><stop offset="1" stop-color="#679CF4"/></linearGradient></defs>
+  <rect width="1500" height="300" rx="24" fill="url(#bg)"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="54" y="54" fill="#F3F7FB" font-size="21" font-weight="700">THE EXPERIMENT, FROM RAW FILES TO A CAREFUL PREDICTION</text>
+    <text x="54" y="81" fill="#8FA8BE" font-size="14">Every stage leaves an inspectable notebook or saved artifact.</text>
+    <path d="M163 177H1337" stroke="url(#line)" stroke-width="3" opacity=".75"/>
+    <g transform="translate(54 115)"><rect width="200" height="116" rx="15" fill="#10273B" stroke="#2A6972"/><circle cx="27" cy="28" r="15" fill="#1C655F"/><text x="27" y="33" text-anchor="middle" fill="#C2FFF1" font-size="13" font-weight="700">01</text><text x="22" y="68" fill="#F3F7FB" font-size="17" font-weight="700">Audit data</text><text x="22" y="94" fill="#9AB0C3" font-size="13">Schema · labels · duplicates</text></g>
+    <g transform="translate(347 115)"><rect width="200" height="116" rx="15" fill="#10273B" stroke="#2A6972"/><circle cx="27" cy="28" r="15" fill="#1C655F"/><text x="27" y="33" text-anchor="middle" fill="#C2FFF1" font-size="13" font-weight="700">02</text><text x="22" y="68" fill="#F3F7FB" font-size="17" font-weight="700">Explore</text><text x="22" y="94" fill="#9AB0C3" font-size="13">EDA · leakage risks</text></g>
+    <g transform="translate(640 115)"><rect width="200" height="116" rx="15" fill="#10273B" stroke="#2A6972"/><circle cx="27" cy="28" r="15" fill="#1C655F"/><text x="27" y="33" text-anchor="middle" fill="#C2FFF1" font-size="13" font-weight="700">03</text><text x="22" y="68" fill="#F3F7FB" font-size="17" font-weight="700">Select NB pipeline</text><text x="22" y="94" fill="#9AB0C3" font-size="13">Five-fold CV · macro F1</text></g>
+    <g transform="translate(933 115)"><rect width="200" height="116" rx="15" fill="#10273B" stroke="#315982"/><circle cx="27" cy="28" r="15" fill="#234E7D"/><text x="27" y="33" text-anchor="middle" fill="#D9E8FF" font-size="13" font-weight="700">04</text><text x="22" y="68" fill="#F3F7FB" font-size="17" font-weight="700">Evaluate holdout</text><text x="22" y="94" fill="#9AB0C3" font-size="13">One final untouched split</text></g>
+    <g transform="translate(1226 115)"><rect width="220" height="116" rx="15" fill="#10273B" stroke="#315982"/><circle cx="27" cy="28" r="15" fill="#234E7D"/><text x="27" y="33" text-anchor="middle" fill="#D9E8FF" font-size="13" font-weight="700">05</text><text x="22" y="68" fill="#F3F7FB" font-size="17" font-weight="700">External article</text><text x="22" y="94" fill="#9AB0C3" font-size="13">One random item per run</text></g>
+  </g>
+</svg>
